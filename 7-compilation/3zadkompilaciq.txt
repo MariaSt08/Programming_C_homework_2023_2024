@@ -1,0 +1,8 @@
+1. За да компилирам файла transformation.c до обектен файл използвах командата:
+               gcc -c transformation.c -o transformation.o
+2. Компилирах main.c като включих transformation.c с:
+               gcc main.c transformation.o -o main.exe
+3. След изпълнените команди се създава изпълним файл main.exe, който изпълнявам с:
+               ./main.exe
+ 
+
